@@ -228,7 +228,7 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row: 3;
-        background-color: red;
+        background-color: black;
         margin-bottom: 0;
     }
 
@@ -369,7 +369,10 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
 
 /*CMs slutt*/
 
+
 /*
+
+
 @media only screen and (max-width: 1000px) {
 
     
@@ -440,5 +443,57 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
 
 }
 
-
 */
+
+
+@media screen and (max-width: 700px) and (min-width: 200px) { 
+    #div-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100vw;
+    }
+
+   #div-container main h1 {
+        margin: 0;
+        font-size: 30px;
+   }
+
+    #div-container {
+        display: flex;
+        margin: 0;
+    }
+
+    #div-container main {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(223, 223, 223);
+    }
+
+
+    #div-container header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: center;
+    }
+
+    #div-container header nav ul li {
+        margin: 0;
+    }
+
+    #div-container header nav #nav-options #logo {
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 20px;
+    }
+  }
