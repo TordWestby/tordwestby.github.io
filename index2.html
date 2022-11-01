@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style3.css"> 
+    <meta name="viewport" content="width=900"> <!--Siden zoomet automatisk inn hver gang man gikk inn i mobile view med inspect elemnt så søkte opp hvordan løse dette og fant løsnningen på dette StackOverflow formuet https://stackoverflow.com/questions/14272420/webpage-starts-zoomed-in-on-mobile-devices -->
+    <title>Forside deleksamen Tord</title>
+</head>
+<body>
+<!--Endringer siden første innlveringen i denne deleksamen, fiksed navigasjonsbaren slik at den er mer oversiktlig og bruk av flexbox for plassering av logoen i høyrehjørne.
+    Velger å ikke bruke flex på de andre elemnetene siden jeg syntes det ser ganske bra ut med jevnt mellomrom imellom de forskjellige sidene.
+    jeg valgte også å legge til slik at teksten blir større og får en tydlig bakgrunnsfarge for å gi en tydlig og overistklig tegn på at navigasjonsbaren kan brukes.   
+-->
+    <div id="div-container">        <!--Lager en parent div.-->
+            <header>
+                <nav>
+                    <ul id="nav-options">
+                            <li id="logo">
+                                <a href="index2.html"><img src="../image/logo_2.png" alt="Bilde av logoen"></a>
+                            </li>
+                            <li>
+                                <a href="index2.html">Hjem</a> 
+                            </li>
+                            <li>
+                                <a href="uu_vs_seo.html">UU vs SEO</a> 
+                            </li>
+                            <li>
+                                <a href="cms.html">CMS</a> 
+                            </li>
+                            <li>
+                                <a href="analyse.html">Analyse</a> 
+                            </li>
+                            <li>
+                                <a href="kontakt_oss.html">Kontakt Oss</a> 
+                            </li>
+                    </ul>
+                </nav>
+            </header>
+        <main>
+            <h1>Forside for Deleksamen del 2</h1>       <!--legger til de 3 hovesidene på forsiden min, med linker til som sender deg til siden. Plus at teksten blir støre når man holder over for å indikere at linken kan klikkes -->
+            <div id="UU">
+                <article>
+                    <h3>UU vs SEO</h3>
+                    <img src="../image/ben-kolde-bs2Ba7t69mM-unsplash.jpg" alt="Bilde av en data som har en tekst med skriften 'I design and develop expreiences that make people's lives simple.'">
+                    <p>Hva er egentlig UU og hva er egentlig SEO, klikk nedenfor for å lese mer.</p>
+                    <a href="../html/uu_vs_seo.html">Les mer.</a>
+                </article>
+            </div>
+            <div id="cms">
+                <article>
+                    <h3>CMS</h3>
+                    <img src="../image/stephen-phillips-hostreviews-co-uk-zs98a0DtKL4-unsplash.jpg" alt="Bilde av venstre hjørne av en skjerm med wordpress.com siden som er en CMS">
+                    <p>Dette er en kort ingres tekst som skal senere være beskrivende for CMS</p>
+                    <a href="../html/cms.html">Les mer.</a>
+                </article>
+            </div>
+            <div id="analyse">
+                <article>
+                    <h3>Analyse</h3>
+                    <img src="../image/path-digital-tR0jvlsmCuQ-unsplash.jpg" alt="Bilde av en pc med masse data/informasjon på seg.">
+                    <p>Dette er en kort ingres tekst som skal senere være beskrivende for Analyse</p>
+                    <a href="../html/analyse.html">Les mer.</a>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <br>        <!--Footer som er festet til bunnen med hjelp av css og en kontakt oss knapp som sender deg vidre til kontakt oss siden.-->
+            <p>kontakt oss her: <a href="../html/kontakt_oss.html">Kontakt Skjema</a></p>
+        </footer>
+    </div>
+</body>
+</html>
