@@ -1,0 +1,166 @@
+
+body {
+    background-color: rgb(167, 164, 164);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/*===Navigation baren på toppen===*/
+
+.nav-list {
+    background-image: url("../image/background-img.webp");
+    background-size: cover;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex ;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    text-decoration: underline 2px white;
+    font-size: 18px;
+}
+
+.nav-item:first-child{
+    margin-right: auto;
+}
+
+.nav-item img {
+    height: 90px;
+    width: 90px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+
+/*===Slutt på navigation baren===*/
+/*===Main===*/
+
+main .wrapper {
+    margin-top: 2vh;
+}
+
+main h1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+main h1 a:hover {
+    font-size: 22px;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+/*===wrapper===*/
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;  /*Denne setter en gap på både column og row samtidig*/
+    grid-auto-rows: minmax(100px, auto);
+    /*
+    grid-column-gap: 1rem;      Privat Kommentar:(Det kan enten skrives slik his man vil syle culumn gappen som er mellomrommet på de som ligger! Så er d 3 bilder på en linje justerer den gappen til høyre og vesntre for den!)
+    grid-row-gap: 1rem;
+    */
+    
+}
+
+
+.wrapper article {
+    text-align: center;
+}
+
+.wrapper article p {
+    display: grid;
+    width: 50%;
+    margin-left: 25%;
+}
+/*===Slutten av wrapper===*/
+
+/*MAIN*/
+
+main h2 {
+    color: white;
+    text-align: center;
+}
+
+.text-over-image{
+    width: 100vw;
+    height: 100vh;
+    background: url(../image/pexels-hasan-albari-1229861.jpg); /*KILDE FOR BILDE: Photo by Hasan Albari: https://www.pexels.com/photo/silver-and-black-laptop-computer-1229861/*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top: -21px;
+}
+
+.text-over-image h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+/*Slutten av main*/
+/*===Starten av Footer===*/
+
+footer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    width: 100%;
+}
+
+footer p {
+    display: grid;
+    margin: 1rem;
+    justify-content: end;
+}
+
+footer a {
+    color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+
+/*===Slutten av Footer===*/
+
+/*
+            ==========KIDLER SOM ER BRUKT I FILA==========
+https://www.youtube.com/watch?v=jV8B24rSN5o&ab_channel=TraversyMedia (For forsåelse av hvordan css grid fungerer)
+
+backgrunnsbilde på toppen:
+    file:///C:/Users/tordh/Documents/GitHub/Webutvikling/Deleksamner/Deleksamen2_v2.0/image/background-img.webp
+
+*/
