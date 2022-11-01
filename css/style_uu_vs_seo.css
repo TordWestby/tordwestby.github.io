@@ -72,7 +72,7 @@ main #mother article a:hover {
     font-size: unset !important;            /*Hvordan skru av hover efekten funnet på stack overflow: https://stackoverflow.com/questions/26754497/css-disable-hover-effect av brukeren Pawan Kumar.*/
 }
 /**/
-
+/*
 @media only screen and (max-width:400px) {
     main #table-container p {
         font-size: 25px;
@@ -134,9 +134,11 @@ main #mother article a:hover {
 
 
 
-/**/
+/*
 
 
 
 
 }
+
+*/
