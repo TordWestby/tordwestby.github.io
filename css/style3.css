@@ -447,6 +447,11 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
 
 
 @media screen and (max-width: 700px) and (min-width: 200px) { 
+    body {
+        height: 100vh;
+        width: 100vh;
+    }
+
     #div-container {
         display: flex;
         flex-direction: column;
@@ -487,6 +492,10 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
         display: flex;
         justify-content: center;
         display: none;
+    }
+
+    footer {
+        
     }
 
     footer p {
