@@ -224,12 +224,12 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
     footer {
         display: grid;
         width: 100%;
-        height: 15%;
+        height: 10%;
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row: 3;
         background-color: black;
-        margin-top: 50%;
+        margin-top: 100%;
     }
 
 
