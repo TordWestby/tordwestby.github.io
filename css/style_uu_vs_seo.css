@@ -1,0 +1,142 @@
+
+main #mother h2 {
+    margin-bottom: 5rem;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+main #mother {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: auto;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+main #mother h2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+main #mother #uu {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 1rem;
+    text-align: center;
+}
+
+main #mother #seo {
+    grid-column: 3;
+    grid-row: 2;
+    margin: 1rem;
+    text-align: center;
+}
+
+main #mother h3 {
+    font-weight: 1;
+    text-decoration: underline;
+}
+
+
+main #mother #uu p {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+main #mother #seo p {
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+
+
+/**/
+
+/*Link styling*/
+
+main #mother article a  {
+    color: blue;
+    text-decoration: none;
+}
+
+main #mother article a:hover {
+    font-size: unset !important;            /*Hvordan skru av hover efekten funnet på stack overflow: https://stackoverflow.com/questions/26754497/css-disable-hover-effect av brukeren Pawan Kumar.*/
+}
+/**/
+
+@media only screen and (max-width:400px) {
+    main #table-container p {
+        font-size: 25px;
+        margin: 0;
+        word-break: break-word;
+    }
+
+    main #table-container p b {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    #table-container {
+        display: grid;
+        border: 1px solid black;
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        background-color: white;
+    }
+    
+    #table-container p {
+        margin: 1rem;
+        font-size: 40px;
+    }
+    
+
+     main #mother h2 {
+        margin-bottom: 5rem;
+        font-size: 60px;
+    }
+    
+    main #mother {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    
+    main #mother h3 {
+        font-weight: 1;
+        text-decoration: underline;
+    }
+    
+
+    main #mother p {
+        font-size: 30px;
+    }
+    
+    main #mother a {
+        font-size: 30px;
+    }
+
+   /* header mobil view*/
+
+
+
+
+/**/
+
+
+
+
+}

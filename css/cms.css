@@ -1,0 +1,71 @@
+
+
+@media only screen and (max-width: 1200px) {
+   main #cms-article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+  }
+
+  main #cms-article article {
+      border: 2px solid black;
+      width: 100%;
+      background-color: white;
+  }
+
+  main #cms-article article a {
+      color: blue;
+      text-decoration: none;
+      font-size: unset !important;
+  }
+
+  main #cms-article article p {
+   margin: 1rem;
+   font-size: 25px;
+  }
+
+  main article h2 {
+    font-size: 40px;
+  }
+
+   #table-container {
+       display: grid;
+       border: 1px solid black;
+       margin-top: 1rem;
+       margin-left: 0;
+       margin-right: 0;
+       background-color: white;
+   }
+   
+   #table-container p {
+       margin: 1rem;
+       font-size: 20px;
+   }
+
+   
+
+    main #mother h2 {
+       margin-bottom: 5rem;
+       font-size: 20px;
+   }
+   
+   main #mother {
+       display: flex;
+       flex-direction: column;
+       margin: 0;
+   }
+   
+   
+   main #mother h3 {
+       font-weight: 1;
+       text-decoration: underline;
+   }
+   
+   
+
+
+
+
+
+}
