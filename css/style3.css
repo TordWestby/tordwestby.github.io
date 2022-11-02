@@ -43,8 +43,7 @@ body h1 {
 }
 
 #div-container main {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 2;
     grid-row: 2;
 }
 
@@ -168,8 +167,7 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
     }
 
     main #cms {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column: 2;
         grid-row: 2;
         margin: 1rem;
     }
