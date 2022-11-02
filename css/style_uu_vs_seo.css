@@ -104,6 +104,7 @@ main #mother article a:hover {
 
     main #table-container p {
         font-size: 15px;
+        word-wrap: break-word;
     }
     main #table-container p b {
         font-size: 18px;
