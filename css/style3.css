@@ -190,35 +190,7 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
         height: 300px;
     }
 
-    main #cms-article {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 7rem;
-    }
 
-    main #cms-article article {
-        border: 2px solid black;
-        width: 100%;
-        margin: 0.1rem;
-        background-color: white;
-    }
-
-    main #cms-article article a {
-        color: blue;
-        text-decoration: none;
-        font-size: unset !important;
-    }
-
-
-    main #cms-article article h2 {
-        font-family: 'Oswald', sans-serif;
-        font-size: 45px;
-    }
-
-    main #cms-article article p {
-        margin: 1rem;
-    }
 
 
 
