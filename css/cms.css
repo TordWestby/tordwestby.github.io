@@ -1,6 +1,72 @@
+main #cms-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+main #cms-article article {
+    border: 2px solid black;
+    width: 100%;
+    margin: 5rem;
+    background-color: white;
+}
+
+main #cms-article article a {
+    color: blue;
+    text-decoration: none;
+    font-size: unset !important;
+}
 
 
-@media screen and (max-width: 700px) and (min-width: 200px) {
+main #cms-article article h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+
+main #cms-article article p {
+    margin: 1rem;
+}
+
+
+
+@media screen and (max-width: 1500px) and (min-width: 751px) {
+
+    body {
+        margin: 0;
+    }
+
+
+
+    #div-container {
+        margin: 0;
+    }
+
+    main #cms-article article {
+        margin: 1rem;
+    }
+    
+    
+    
+    main #table-container {
+        margin: 0;
+        width: 100vw;
+        overflow: scroll;
+    }
+
+    main #table-container p {
+        font-size: 15px;
+
+    }
+    main #table-container p b {
+        font-size: 18px;
+        margin: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 750px) and (min-width: 200px) {
     body {
         margin: 0;
         width: 100%;
@@ -26,6 +92,7 @@
 
     main #table-container p {
         font-size: 15px;
+
     }
     main #table-container p b {
         font-size: 18px;
@@ -33,7 +100,10 @@
     }
 
 
-
+    main #cms-article article p {
+        margin: 2rem;
+    }
+    
 
 
 

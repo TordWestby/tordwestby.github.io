@@ -74,11 +74,49 @@ main #mother article a:hover {
 /**/
 
 
+@media screen and (max-width: 1500px) and (min-width: 751px) {
+
+    body {
+        margin: 0;
+    }
+
+    main #mother {
+        margin: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div-container {
+        margin: 0;
+    }
+
+    main #cms-article article {
+        margin: 1rem;
+    }
+    
+    
+    
+    main #table-container {
+        margin: 0;
+        width: 100vw;
+        overflow: scroll;
+    }
+
+    main #table-container p {
+        font-size: 15px;
+
+    }
+    main #table-container p b {
+        font-size: 18px;
+        margin: 0;
+    }
+
+
+}
 
 
 
-
-@media screen and (max-width: 700px) and (min-width: 200px) {
+@media screen and (max-width: 750px) and (min-width: 200px) {
     body {
         margin: 0;
         width: 100%;
