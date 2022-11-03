@@ -431,7 +431,8 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
     }
 
     footer {
-        height: 4.5rem;
+        height: 5rem;
+        margin-bottom: 0;
     }
 
     footer p {
