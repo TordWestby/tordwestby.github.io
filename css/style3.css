@@ -213,7 +213,7 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
         font-size: 30px;
         justify-self: right;
         color: white;
-        margin: 20px;
+        margin-right: 2rem;
     }
 
     footer a {
@@ -383,6 +383,10 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
         flex-direction: column;
     }
 
+    footer p {
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+    }
     
 }
 
@@ -437,6 +441,8 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
 
     footer p {
         font-size: 20px;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     footer a {
