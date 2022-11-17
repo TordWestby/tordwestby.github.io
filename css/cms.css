@@ -44,6 +44,7 @@ main #cms-article article p {
 
     main #cms-article article {
         margin: 0;
+        width: 100%;
     }
     
     
@@ -73,14 +74,26 @@ main #cms-article article p {
         height: 100%;
     }
 
+    #div-container {
+        margin: 0;
+    }
+
+    
+
 
     #cms-article {
+        display: flex;
+        flex-direction: column;
         width: 100vw;
         margin: 0;
     }
 
-    #cms-article article {
+    main #cms-article article {
         margin: 0;
+    }
+
+    #div-container main #cms-article article p {
+        margin: 1rem;
     }
 
 
@@ -96,7 +109,6 @@ main #cms-article article p {
     }
     main #table-container p b {
         font-size: 18px;
-        margin: 0;
     }
 
 
