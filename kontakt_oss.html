@@ -49,12 +49,30 @@
             </nav>
         </header>
     <main>
-        <div id="socials">
-        <h2>Denne siden skal være en side hvor det er mulig å kontakte kundeserice eller support senere</h2>
-        <p>Instagram: <a href="https://www.instagram.com/tord_westby/" target="_blank" id="socials">Instagram</a></p>
-        <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100010685525355" target="_blank" id="socials">Facebook</a></p>
-        <p>Email: <a href="mailto:tordhw@gmail.com? subject=subject text" id="socials">Epost</a>
-        </div>
+        
+        <div id="kontakt-oss">
+            <div class="contact-form">
+                <form action="kontakt_oss.php">
+                    <label for="fname">Navn</label>
+                    <input type="text" id="fname" name="navn" placeholder="Ditt navn">
+
+                    <label for="reason">Hva er grunnen</label>                              <!--Kontakt oss skjema er hentet fra https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+                    <select id="reason" name="reason">
+                        <option value="complaint">Klage</option>
+                        <option value="wronginformation">Feilinformasjon</option>
+                        <option value="question">Spørsmål</option>
+                    </select>
+
+                    <label for="subject">Hva handler det om</label>
+                    <textarea id="subject" name="subject" placeholder="Skriv noe her" style="height:200px"></textarea>
+
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2047.188276120806!2d11.350614616177541!3d59.12925023409058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f0d344246f%3A0x4e47f19c99b253b1!2zSMO4Z3Nrb2xlbiBpIMOYc3Rmb2xk!5e0!3m2!1sno!2sno!4v1669668283778!5m2!1sno!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+
+        
     </main>
     <footer>
         <br>        <!--Footer som er festet til bunnen med hjelp av css og en kontakt oss knapp som sender deg vidre til kontakt oss siden.-->

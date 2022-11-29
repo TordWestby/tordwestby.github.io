@@ -187,9 +187,57 @@ jeg lagde navigasjonsbaren med hjelp fra denne youtbe videoen: https://www.youtu
 
 
 
-/*Sluttp på alt innhold innenfor main taggen*/
+/*Slutt på alt innhold innenfor main taggen*/
+
 
 /*====================Kontakt oss siden=========================*/
+
+#kontakt-oss {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 2;
+    border: 2px solid black;
+    background-color: lightgray;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#kontakt-oss iframe {
+    width: 50%;
+    margin: 1rem;
+}
+
+#kontakt-oss .contact-form {
+    width: 50%;
+    margin: 1rem;
+}
+
+input[type=text], select, textarea {
+    width: 100%;                                    /*Kontakt oss skjema css'en er hentet fra https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
 
 
 
