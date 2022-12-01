@@ -1,5 +1,5 @@
 
-main #mother h2 {
+main #mother h1 {
     margin-bottom: 5rem;
     font-size: 60px;
     font-family: 'Oswald', sans-serif;
@@ -18,7 +18,7 @@ main #mother {
     background-color: white;
 }
 
-main #mother h2 {
+main #mother h1 {
     grid-column: 2;
     grid-row: 1;
 }
